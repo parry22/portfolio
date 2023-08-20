@@ -1,10 +1,11 @@
 import React from 'react';
 import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/react/20/solid'
+import { Chart } from 'react-chartjs-2';
 
 const stats = [
-  { name: 'Total Subscribers', stat: '71,897', previousStat: '70,946', change: '12%', changeType: 'increase' },
-  { name: 'Avg. Open Rate', stat: '58.16%', previousStat: '56.14%', change: '2.02%', changeType: 'increase' },
-  { name: 'Avg. Click Rate', stat: '24.57%', previousStat: '28.62%', change: '4.05%', changeType: 'decrease' },
+  { name: 'User Retention (Enterprise)', stat: '92.24%', previousStat: '67.08%', change: '37.42%', changeType: 'increase' },
+  { name: 'Monthly Churn Rate', stat: '3.17%', previousStat: '16.56%', change: '80.81%', changeType: 'decrease' },
+  { name: 'User Engagement', stat: '63.57%', previousStat: '27.62%', change: '130.27%', changeType: 'increase' },
 ]
 
 function classNames(...classes) {
@@ -15,23 +16,23 @@ export default function Example() {
   return (
 
     <div>
-              <div className=" ml-72 md:flex md:items-center md:justify-between">
-  <div className="min-w-0 flex-1">
-  <h2 className="ml-10 text-2xl font-bold leading-7 text-white sm:truncate sm:text-3xl sm:tracking-tight">
-Aggregated Success Metrics
-</h2>
-
-  </div>
+    <div className="px-4 sm:px-0">
+      <h3 className="text-base font-semibold leading-7 text-white">Dashboard</h3>
+      <p className="mt-1 max-w-2xl text-sm leading-6 text-gray-400">Aggregrated success metrics I have acheived over the years.</p>
+    </div>
+    <div>
+    <div>
+   <div className=" ml-72 md:flex md:items-center md:justify-between">
 </div>
-      <h3 className="text-base font-semibold leading-6 text-gray-900">Last 30 days</h3>
-      <dl className="mt-5 grid grid-cols-1 divide-y divide-gray-200 overflow-hidden rounded-lg bg-white shadow md:grid-cols-3 md:divide-x md:divide-y-0">
+     
+      <dl className="mt-5 grid grid-cols-1 divide-y divide-gray-700 overflow-hidden rounded-lg bg-white/5 shadow md:grid-cols-3 md:divide-x md:divide-y-0">
         {stats.map((item) => (
           <div key={item.name} className="px-4 py-5 sm:p-6">
-            <dt className="text-base font-normal text-gray-900">{item.name}</dt>
+            <dt className="text-base font-normal text-white">{item.name}</dt>
             <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
-              <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
+              <div className="flex items-baseline text-2xl font-semibold text-indigo-500">
                 {item.stat}
-                <span className="ml-2 text-sm font-medium text-gray-500">from {item.previousStat}</span>
+                <span className="ml-2 text-sm font-medium text-gray-400">from {item.previousStat}</span>
               </div>
 
               <div
@@ -60,6 +61,11 @@ Aggregated Success Metrics
         ))}
       </dl>
     </div>
+    
+    </div>
+    
+    </div>
+    
   )
 }
 

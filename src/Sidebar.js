@@ -30,16 +30,16 @@ import {
 
 const navigation = [
   { name: 'Dashboard', href: '/', icon: HomeIcon, current: true },
-  { name: 'About', href: 'About', icon: ChartPieIcon, current: false },
-  { name: 'Testimonials', href: 'Testimonials', icon: UsersIcon, current: false },
+  { name: 'About', href: '/About', icon: ChartPieIcon, current: false },
+  { name: 'Testimonials', href: '/Testimonials', icon: UsersIcon, current: false },
   { name: <>Events  <div className='text-orange-400 text-xs leading-3 mt-1.5'>Coming Soon</div></>, href: '#', icon: CalendarIcon, current: false },
-  { name: 'Contact', href: 'Contact', icon: FolderIcon, current: false },
+  { name: 'Contact', href: '/Contact', icon: FolderIcon, current: false },
   
 ]
 const teams = [
-  { id: 1, name: 'Fantasia', href: 'Fantasia', initial: 'F', current: false },
-  { id: 2, name: 'Intuition AI', href: 'IntuitionAI', initial: 'I', current: false },
-  { id: 3, name: 'School Integral', href: 'SchoolIntegral', initial: 'S', current: false },
+  { id: 1, name: 'Fantasia', href: '/Fantasia', initial: 'F', current: false },
+  { id: 2, name: 'Intuition AI', href: '/IntuitionAI', initial: 'I', current: false },
+  { id: 3, name: 'School Integral', href: '/SchoolIntegral', initial: 'S', current: false },
 ]
 
 
@@ -121,7 +121,7 @@ export default function Sidebar({children}) {
                                 <a
                                   href={item.href}
                                   className={classNames(
-                                    item.current
+                                    window.location.pathname==item.href
                                       ? 'bg-gray-800 text-white'
                                       : 'text-gray-200 hover:text-white hover:bg-gray-800',
                                     'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
@@ -142,7 +142,7 @@ export default function Sidebar({children}) {
                                 <a
                                   href={team.href}
                                   className={classNames(
-                                    team.current
+                                    window.location.pathname==team.href
                                       ? 'bg-gray-800 text-white'
                                       : 'text-gray-200 hover:text-white hover:bg-gray-800',
                                     'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
@@ -186,7 +186,7 @@ export default function Sidebar({children}) {
                         <a
                           href={item.href}
                           className={classNames(
-                            item.current
+                           window.location.pathname==item.href
                               ? 'bg-gray-800 text-white'
                               : 'text-gray-200 hover:text-white hover:bg-gray-800',
                             'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
@@ -194,6 +194,7 @@ export default function Sidebar({children}) {
                         >
                           <item.icon className="h-6 w-6 shrink-0" aria-hidden="true" />
                           {item.name}
+                          {/* {window.location.pathname} */}
                         </a>
                       </li>
                     ))}
@@ -207,7 +208,7 @@ export default function Sidebar({children}) {
                         <a
                           href={team.href}
                           className={classNames(
-                            team.current
+                            window.location.pathname==team.href
                               ? 'bg-gray-800 text-white'
                               : 'text-gray-200 hover:text-white hover:bg-gray-800',
                             'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'

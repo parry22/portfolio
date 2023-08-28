@@ -53,7 +53,7 @@ From startups to established firms, my design journey has been about translating
                   </div>
                   <div className="ml-4 flex-shrink-0">
                   <a href="./public/ResumeAugust2023.pdf" download="ResumeAugust2023.pdf" className="font-medium text-indigo-400 hover:text-indigo-300">
-                      Download
+                      {/* Downloadhhhgghh */}
                     </a>
                   </div>
                 </li>

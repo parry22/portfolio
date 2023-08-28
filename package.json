@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@faker-js/faker": "^8.0.2",
     "@headlessui/react": "^1.7.16",
     "@heroicons/react": "^2.0.18",
     "@testing-library/jest-dom": "^5.17.0",

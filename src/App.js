@@ -5,9 +5,9 @@ import Dashboard from './Dashboard';
 import About from './About';
 import Testimonials from './Testimonials';
 import Contact from './Contact';
-import SchoolIntegral from './SchoolIntegral';
+import SchoolIntegral from './SchoolIntegral/SchoolIntegral';
 import Fantasia from './Fantasia/Fantasia';
-import IntuitionAI from './IntuitionAI';
+import IntuitionAI from './IntuitionAI/IntuitionAI';
 import {
   createBrowserRouter,
   RouterProvider,

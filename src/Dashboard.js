@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/react/20/solid'
 import { Chart } from 'react-chartjs-2';
 import Conversionrate from './Conversionrate'
+import Barchart from './Charts/Barchart';
 
 const stats = [
   { name: 'User Retention (Enterprise)', stat: '92.24%', previousStat: '67.08%', change: '37.42%', changeType: 'increase' },
@@ -62,7 +63,19 @@ export default function Example() {
         ))}
       </dl>
     </div>
+    <div>
+    <div className="px-4 mt-10 mb-5 sm:mt-10 sm:px-0 sm:mb-10">
+      <h3 className="text-base font-semibold leading-7 text-white">Growth Metrics</h3>
+    </div>
+    <div>
+    <Barchart></Barchart>
+    <div>
+    <div className="px-4 mt-10 mb-5 sm:mt-10 sm:px-0 sm:mb-10">
+      <h3 className="text-base font-semibold leading-7 text-white">Error Rate</h3>
+    </div>
+    <div>
     <Conversionrate></Conversionrate>
+   
     <div class="p-col-12" id="chart-bar44">
                 <canvas id="myBarChart">
 
@@ -71,6 +84,10 @@ export default function Example() {
     
     </div>
     
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
     
   )

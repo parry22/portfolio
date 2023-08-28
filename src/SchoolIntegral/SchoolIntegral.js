@@ -7,6 +7,7 @@ import Design from './Design'
 import Usertesting from './Usertesting'
 import Finaldesigns from './Finaldesigns'
 import Learnings from './Learnings'
+import Testimonial from './Testimonial'
 
 export default function Example() {
   
@@ -30,18 +31,18 @@ className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3
           <div className="mx-auto max-w-7xl px-6 lg:px-2">
             <div className="mx-auto max-w-4xl text-center">
               <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                Fantasia
+                School Integral
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
               Fantasia gets you closer to your travel dreams. It helps you make the most of travel credit cards or any other cards you've got. You get better deals on flight points, hotels, and travel insurance. Fantasia also teach you all about what your cards can really do.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="https://www.figma.com/file/zitWT9ElIXOprFo6TP6ZWK/Fantasia?type=design&node-id=44%3A4949&mode=design&t=VSLnxZQDWVMzVAlA-1"
+                  href="https://www.schoolintegral.com/"
                   target="_blank"
                   className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                 >
-                  View Figma Files
+                  View School Integral
                 </a>
                 <a href="#case-study" className="text-sm font-semibold leading-6 text-white"
                 onClick={(event) => {
@@ -60,7 +61,7 @@ className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3
               </div>
             </div>
             <img
-              src="Fantasia1.png"
+              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
               alt="App screenshot"
               width={2432}
               height={1442}
@@ -78,6 +79,7 @@ className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3
        <Usertesting></Usertesting>
        <Finaldesigns></Finaldesigns>
        <Learnings></Learnings>
+       <Testimonial></Testimonial>
 
     </div>
   </div>

@@ -20,9 +20,8 @@ import { Dialog, Transition } from '@headlessui/react'
 import {
   Bars3Icon,
   CalendarIcon,
-  ChartPieIcon,
-  DocumentDuplicateIcon,
-  FolderIcon,
+  IdentificationIcon,
+  ChatBubbleOvalLeftEllipsisIcon,
   HomeIcon,
   UsersIcon,
   XMarkIcon,
@@ -30,10 +29,10 @@ import {
 
 const navigation = [
   { name: 'Dashboard', href: '/', icon: HomeIcon, current: true },
-  { name: 'About', href: '/About', icon: ChartPieIcon, current: false },
+  { name: 'About', href: '/About', icon: IdentificationIcon, current: false },
   { name: 'Testimonials', href: '/Testimonials', icon: UsersIcon, current: false },
   { name: <>Events  <div className='text-orange-400 text-xs leading-3 mt-1.5'>Coming Soon</div></>, href: '#', icon: CalendarIcon, current: false },
-  { name: 'Contact', href: '/Contact', icon: FolderIcon, current: false },
+  { name: 'Contact', href: '/Contact', icon: ChatBubbleOvalLeftEllipsisIcon, current: false },
   
 ]
 const teams = [

@@ -66,7 +66,10 @@ From startups to established firms, my design journey has been about translating
                     </div>
                   </div>
                   <div className="ml-4 flex-shrink-0">
-                    <a href="./public/Resume August2023.pdf" download="Resume August2023.pdf" className="font-medium text-indigo-400 hover:text-indigo-300">
+                    <a href="./public/Resume August2023.pdf" onClick={()=>{
+                      window.open('https://docs.google.com/document/d/177Lk5wCegCeYwaTuGXOa5iKaM65RKBHM33YmU-r5w5Y/edit','')
+
+                    }} download="Resume August2023.pdf" className="font-medium text-indigo-400 hover:text-indigo-300">
                       Download
                     </a>
                   </div>

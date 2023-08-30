@@ -34,7 +34,7 @@ export default function Example() {
                 </blockquote>
                 <figcaption className="mt-8 text-base">
                   <div className="font-semibold text-white">Ifechukwu</div>
-                  <div className="mt-1 text-gray-400">CEO of School Integral</div>
+                  <div className="mt-1 text-gray-400">CEO @ School Integral</div>
                 </figcaption>
               </figure>
             </div>

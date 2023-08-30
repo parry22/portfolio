@@ -34,7 +34,8 @@ className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3
                 Intuition AI
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-              Fantasia gets you closer to your travel dreams. It helps you make the most of travel credit cards or any other cards you've got. You get better deals on flight points, hotels, and travel insurance. Fantasia also teach you all about what your cards can really do.
+              Intuition AI encourages engagement with AI-guided chat conversations based on your team’s unique interests and mission. 
+              Launch challenges filled with activities that promote team building, health & wellness, and build culture within your organization.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
@@ -61,7 +62,7 @@ className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3
               </div>
             </div>
             <img
-              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+              src="Intuition1.png"
               alt="App screenshot"
               width={2432}
               height={1442}
@@ -72,11 +73,11 @@ className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3
         </div>
        <Challenges></Challenges>
        <Prelimresearch></Prelimresearch>
-       <Userinsights></Userinsights>
        <Feasibility></Feasibility>
+       <Userinsights></Userinsights>
        <Userjourney></Userjourney>
        <Design></Design>
-       <Usertesting></Usertesting>
+       {/* <Usertesting></Usertesting> */}
        <Finaldesigns></Finaldesigns>
        <Learnings></Learnings>
        <Testimonial></Testimonial>

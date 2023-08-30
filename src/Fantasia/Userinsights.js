@@ -26,7 +26,7 @@ function Challenges() {
   return (
         <div className="bg-gray-900 py-24 sm:py-32">
     <div className="mx-auto max-w-7xl">
-      <div className="mx-auto max-w-2xl lg:mx-0">
+      <div className="mx-auto lg:mx-0">
         <h2 className="text-2xl font-bold tracking-tight text-white sm:text-4xl">Some sweet user insights</h2>
         <p className="mt-6 text-lg leading-8 text-gray-300">
         I aimed to connect with regular travelers who use travel credit cards monthly. To truly understand their credit card ussage issues and influence my designs, I chose to engage in-person during my vacation rather than solely relying on online research.

@@ -1,23 +1,23 @@
-import { MoonIcon, ReceiptPercentIcon, LockClosedIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
+import { PlayIcon, CogIcon, PresentationChartBarIcon } from '@heroicons/react/20/solid'
 import React from 'react'
 const features = [
     {
-      name: 'Dark patterns',
+      name: 'Gamification',
       description:
-        'Users who have tried redeeming their rewards or mile points through their credit cards feels deceived when they see advertised offer was more than actual offer.',
-        icon: MoonIcon,
+        'Proper gamification in the user journey was severely lacking for an Initiative engagement platform.',
+        icon: PlayIcon,
     },
     {
-      name: 'Overwhelming options',
+      name: 'Confusing filters',
       description:
-        'Most users feel overwhelmed by the numerous rewards and benefits offered by their credit cards, leading them to often overlook redeeming these benefits when needed.',
-        icon: ReceiptPercentIcon,
+        'Previous videos and challenges navigation filters were quite confusing for most users on the platform.',
+        icon: CogIcon,
     },
     {
-      name: 'Security concerns.',
+      name: 'Insufficient data',
       description:
-        'Many users have security concerns while giving their financial and credit card information to an app which leads to less adoption of product.',
-        icon: LockClosedIcon,
+        'Many HR reps were complaining that data provided by previous platform was insufficient.',
+        icon: PresentationChartBarIcon,
     },
   ]
 
@@ -26,10 +26,10 @@ function Challenges() {
   return (
         <div className="bg-gray-900 py-24 sm:py-32">
     <div className="mx-auto max-w-7xl">
-      <div className="mx-auto max-w-2xl lg:mx-0">
-        <h2 className="text-2xl font-bold tracking-tight text-white sm:text-4xl">Some sweet user insights</h2>
+      <div className="mx-auto lg:mx-0">
+        <h2 className="text-2xl font-bold tracking-tight text-white sm:text-4xl">Synthesizing the results</h2>
         <p className="mt-6 text-lg leading-8 text-gray-300">
-        I aimed to connect with regular travelers who use travel credit cards monthly. To truly understand their credit card ussage issues and influence my designs, I chose to engage in-person during my vacation rather than solely relying on online research.
+        After watching all the complaints users have on a regular basis and users journey, which design features they most prefer, where they gets most confused, I synthesized my findings accordingly.
         </p>
       </div>
       <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

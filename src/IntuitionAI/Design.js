@@ -20,16 +20,16 @@ export default function Example() {
           <div className="hidden sm:mt-32 sm:flex lg:mt-16">
                 </div>
                 <h2 className="mt-4 text-2xl font-bold tracking-tight text-white sm:-mt-20 sm:text-4xl">
-                  Designing for the future
+                Before touching design
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-gray-300">
-                Along with my initial designs I also created a robust design system which includes all the typographies, colors, grids, component libraries, icon and avatar. This made it easier for me to keep track of all the design needs and document all the components in one place.
+                Our previous design system was to be brushed aside. We were using Flowbite, but we were switching to TailwindUI, so I began creating some new colour schemes to address those accessibility issues, as well as some components that I scaled throughout my design process. 
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                 </div>
               </div>
               <img
-                src="Fantasiads.png"
+                src="Intuitionds.png"
                 alt="App screenshot"
                 width={2432}
                 height={1442}

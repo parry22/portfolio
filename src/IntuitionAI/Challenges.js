@@ -1,23 +1,23 @@
-import { ArchiveBoxIcon, ArrowsPointingInIcon, BookOpenIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
+import { EyeDropperIcon, ClockIcon, CpuChipIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 import React from 'react'
 const features = [
     {
-      name: 'Points Management Challenge',
+      name: 'Accessibility issues',
       description:
-        'Managing credit card offers and reward points is a major inconvenience for many users.',
-        icon: ArchiveBoxIcon,
+        'Users had a lot of accessibility issues, little to no context for challenges & scores, the Colour scheme was not meeting WCAG standards, and a lot of in-design challenges which I needed to tackle.',
+        icon: EyeDropperIcon,
     },
     {
-      name: 'Problematic flows',
+      name: 'Tight deadline',
       description:
-        'Flow for redeeming `reward or mile points with most credit cards is often problematic.',
-        icon: ArrowsPointingInIcon,
+        'A crucial challenge was the impending January deadline for launching V2 of the platform. Collaborating with my PM, I prioritized upgrades and determined which should be included in the backlog.',
+        icon: ClockIcon,
     },
     {
-      name: 'Less Education.',
+      name: 'Machine learning introduced',
       description:
-        'Multiple credit cardholders lacked proper education on optimizing their credit card usage.',
-        icon: BookOpenIcon,
+        'Machine learning was used to suggest personalized videos and challenges to users. I had to design a new, user-friendly experience to make it understandable for both new and existing users.',
+        icon: CpuChipIcon,
     },
   ]
 
@@ -26,10 +26,11 @@ function Challenges() {
   return (
         <div  id="case-study"  className="bg-gray-900 py-6 sm:py-32">
     <div className="mx-auto max-w-7xl">
-      <div className="mx-auto max-w-2xl lg:mx-0">
-        <h2 className="text-2xl font-bold tracking-tight text-white sm:text-4xl">Our challenges</h2>
+      <div className="mx-auto lg:mx-0">
+        <h2 className="text-2xl font-bold tracking-tight text-white sm:text-4xl">Constraints and challenges</h2>
         <p className="mt-6 text-lg leading-8 text-gray-300">
-        These were the challenges that we were facing prior to the project start and initial research and we tried to focus in our initial brief.
+        When I joined Intuition AI (then known as Ten Spot), it was in the process of rebranding and revamping its current platform. 
+        At the time, there was no designer, and I was the sole designer in charge of all design decisions made at the organisation and tackle all these challenges.
         </p>
       </div>
       <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

@@ -16,28 +16,26 @@ className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3
             }}
           />
         </div>
-        <div className="py-24 sm:-py-24 lg:pb-10 -mt-24">
+        <div className="py-32 sm:-py-32 lg:pb-10 ">
         <div className="hidden sm:mt-32 sm:flex lg:mt-16">
               </div>
               <h2 className="mt-4 text-2xl font-bold tracking-tight text-white sm:-mt-20 sm:text-4xl">
-                Features and Monetisation planning
+              Let’s stalk our users
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-              In addition to understanding how the planned features would address user problems, I also had to consider the level of difficulty involved in implementing them. I needed to assess which features could be included in the minimum viable product (MVP) and which ones would present significant challenges during the development process. To achieve this, I conducted a feasibility study.
+              Unfortunately, I did not had access and time to talk to our real users, so I had to improvise accordingly. I started using HotJar to analyse the previous interactions and user-flows and see at which touch-points there are chances of improvements.<br></br>
+              <br></br>I also gained a thorough understanding of our users' needs thanks to Product Board. I know it's not as creative as talking to our users, but as the saying goes, "deadlines bring creative ideas."
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
               </div>
             </div>
             <img
-              src="Fantasiastudy.png"
+              src="Hotjar.png"
               alt="App screenshot"
               width={2432}
               height={1442}
               className="-mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-10"
             />
-             <p className="mt-20 text-lg leading-8 text-gray-300">
-             For monetisation of app, I considered two common options: adding ads to generate revenue or charging users to download it. However, I ultimately ditched both ideas. I didn’t wanted to compromise the user experience with intrusive ads, also I wanted to take a product-led growth approach, so a paid version of the app didn't seem like the best fit either. Instead, I decided to monetise the app by offering affiliated products and services that can be purchased using reward points earned by users through their credit cards. This approach allows users to get value from the app while also generating revenue for me without compromising the product experience.
-              </p>
           </div>
           
         </div>

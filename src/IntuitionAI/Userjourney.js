@@ -16,20 +16,21 @@ export default function Example() {
               }}
             />
           </div>
-          <div className="py-24 sm:py-32 lg:pb-10">
+          <div className="py-24 sm:py-2 lg:pb-10">
           <div className="hidden sm:mt-32 sm:flex lg:mt-16">
                 </div>
                 <h2 className="mt-4 text-2xl font-bold tracking-tight text-white sm:-mt-20 sm:text-4xl">
-                  Defining the flow
+                Time to sketch down ideas
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-gray-300">
-                Many users struggled with complicated user flows in their banking or credit card apps. This made them abandon redeeming rewards and offers they had. Unlike the complicated flows in standard banking apps, I focused on keeping my process simple and easy to understand.
+                I had ideas. A lot. However, not all of them were feasible. So, I had to check in with stakeholders frequently to see if this new any new design idea fit their current product agenda. 
+                Following that, I used to meet with our engineering team to determine the technical feasibility of my ideas. Lo-fi wireframes were extremely helpful in this process in determining how to implement my ideas and receive feedback on them from various perspectives.
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                 </div>
               </div>
               <img
-                src="FantasiaUserFlow.png"
+                src="Intuitionwireframes.png"
                 alt="App screenshot"
                 width={2432}
                 height={1442}

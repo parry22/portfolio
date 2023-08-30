@@ -42,7 +42,7 @@ className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3
                   target="_blank"
                   className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                 >
-                  View School Integral
+                  Visit School Integral
                 </a>
                 <a href="#case-study" className="text-sm font-semibold leading-6 text-white"
                 onClick={(event) => {

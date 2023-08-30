@@ -26,7 +26,7 @@ function Challenges() {
   return (
         <div  id="case-study"  className="bg-gray-900 py-6 sm:py-32">
     <div className="mx-auto max-w-7xl">
-      <div className="mx-auto max-w-2xl lg:mx-0">
+      <div className="mx-auto  lg:mx-0">
         <h2 className="text-2xl font-bold tracking-tight text-white sm:text-4xl">Our challenges</h2>
         <p className="mt-6 text-lg leading-8 text-gray-300">
         These were the challenges that we were facing prior to the project start and initial research and we tried to focus in our initial brief.

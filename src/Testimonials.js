@@ -53,8 +53,8 @@ const people = [
         <p className="mt-1 max-w-2xl text-sm leading-6 text-gray-400">Some good words people said.</p>
       </div>
       <div>
-        
-      <ul role="list" className="divide-y divide-gray-800 mt-2">
+       
+      <ul role="list" className="divide-y border-t border-gray-800 divide-gray-800 mt-2">
         {people.map((person) => (
           <li key={person.email} className="flex justify-between gap-x-6 py-5">
             <div className="flex min-w-0 gap-x-4">

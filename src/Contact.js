@@ -21,9 +21,9 @@ export default function Example() {
      
         <div className=" border-white/10 pb-12">
           <h2 className="text-base font-semibold leading-7 text-white">Contact</h2>
-          <p className="mt-1 text-sm leading-6 text-gray-400">Reach out to me for any enquiries.</p>
-
-          <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <p className="mt-1 text-sm  leading-6 text-gray-400">Reach out to me for any enquiries.</p>
+          <div className='border-t border-gray-800 my-4'/>
+          <div className="mt-0 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-3">
               <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-white">
                 First name

@@ -10,7 +10,7 @@ const features = [
     {
       name: 'Tight deadline',
       description:
-        'A crucial challenge was the impending January deadline for launching V2 of the platform. Collaborating with my PM, I prioritized upgrades and determined which should be included in the backlog.',
+        'A crucial challenge was the impending deadline for launching V2 of the platform. Collaborating with my PM, I prioritized upgrades and determined which should be included in the backlog.',
         icon: ClockIcon,
     },
     {

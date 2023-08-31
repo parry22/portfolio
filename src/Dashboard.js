@@ -3,6 +3,7 @@ import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/react/20/solid'
 import { Chart } from 'react-chartjs-2';
 import Conversionrate from './Conversionrate'
 import Barchart from './Charts/Barchart';
+import Linechart from './Charts/Linechart'
 
 const stats = [
   { name: 'User Retention (Enterprise)', stat: '92.24%', previousStat: '67.08%', change: '37.42%', changeType: 'increase' },
@@ -74,6 +75,7 @@ export default function Example() {
       <h3 className="text-base font-semibold leading-7 text-white">Error Rate</h3>
     </div>
     <div>
+      <Linechart></Linechart>
     <Conversionrate></Conversionrate>
    
     <div class="p-col-12" id="chart-bar44">

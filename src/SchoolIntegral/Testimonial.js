@@ -28,7 +28,7 @@ export default function Example() {
                 </svg>
                 <blockquote className="text-xl font-semibold leading-8 text-white sm:text-xl sm:leading-9">
                   <p>
-                  He was very supportive throughout the project and he was acting more of a partner to the project and his advice was always helpful. 
+                  Parry was very supportive throughout the project and he was acting more of a partner to the project and his advice was always helpful. 
                   I look forward to working with him on more projects. Please hire him and you would not regret it.
                   </p>
                 </blockquote>

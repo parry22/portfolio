@@ -5,7 +5,10 @@ const people = [
       role: 'Engineering Manager',
       imageUrl:
         'morris.jpeg',
-      lastSeen: '3h ago',
+        lastSeen: '3h ago',
+      companyName: 'Intuition AI',
+      last: '3h ago',
+
       lastSeenDateTime: '2023-01-23T13:23Z',
     },
     {
@@ -14,7 +17,7 @@ const people = [
       role: 'CEO/Founder',
       imageUrl:
         'ifechukwu.png',
-      lastSeen: '3h ago',
+        companyName: 'School Integral',
       lastSeenDateTime: '2023-01-23T13:23Z',
     },
     {
@@ -23,7 +26,7 @@ const people = [
       role: 'Frontend Engineer',
       imageUrl:
         'mudith.jpeg',
-      lastSeen: null,
+        companyName: 'Invendis',
     },
     {
       name: 'Karthiganesh Durai',
@@ -31,7 +34,7 @@ const people = [
       role: 'Chief Quantum Architecht',
       imageUrl:
         'durai.jpeg',
-      lastSeen: '3h ago',
+        companyName: 'BosonQ PSI',
       lastSeenDateTime: '2023-01-23T13:23Z',
     },
     {
@@ -40,7 +43,7 @@ const people = [
       role: 'Director',
       imageUrl:
         'keyhani.jpeg',
-      lastSeen: '3h ago',
+        companyName: 'electrody.com',
       lastSeenDateTime: '2023-01-23T13:23Z',
     },
   ]
@@ -66,18 +69,11 @@ const people = [
             </div>
             <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
               <p className="text-sm leading-6 text-white">{person.role}</p>
-              {person.lastSeen ? (
+              
                 <p className="mt-1 text-xs leading-5 text-gray-400">
-                  Last seen <time dateTime={person.lastSeenDateTime}>{person.lastSeen}</time>
+                 {person.companyName}
                 </p>
-              ) : (
-                <div className="mt-1 flex items-center gap-x-1.5">
-                  <div className="flex-none rounded-full bg-emerald-500/20 p-1">
-                    <div className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
-                  </div>
-                  <p className="text-xs leading-5 text-gray-400">Online</p>
-                </div>
-              )}
+             
             </div>
           </li>
         ))}

@@ -37,11 +37,11 @@ className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="https://www.figma.com/file/zitWT9ElIXOprFo6TP6ZWK/Fantasia?type=design&node-id=44%3A4949&mode=design&t=VSLnxZQDWVMzVAlA-1"
-                  target="_blank"
-                  className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                  href="#"
+                  // target="_blank"
+                  className="rounded-md bg-indigo-400 px-3.5 py-2.5 text-sm font-semibold text-indigo-200 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                 >
-                  View Figma Files
+                  Available on Play store soon
                 </a>
                 <a href="#case-study" className="text-sm font-semibold leading-6 text-white"
                 onClick={(event) => {

@@ -28,7 +28,7 @@ const stats = [
   { name: "Days spent on project", value: "68" },
   { name: "Increased CTR", value: "39.65%", unit: "" },
   { name: "User retention increased", value: "42.08%" },
-  { name: "User complaints reduced", value: "60%" },
+  { name: "Churn rate reduced", value: "60%" },
 ];
 
 function Challenges() {

@@ -32,11 +32,12 @@ export default function Example() {
                 School Integral
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                School Integral is a fintech and SaaS product that I had the
-                opportunity to work on. It was a project that allowed me to make
-                a real social impact by contributing to the digitisation of the
-                African education system. As someone who is passionate about
-                education, this project is particularly meaningful to me.
+                School Integral is a SaaS School management platform redefining
+                and raising the bar in African education by digitising the
+                education and finance sector. In a rapidly evolving world,
+                education stands as a beacon of progress and empowerment, School
+                Integral transforms power of data and artificial intelligence
+                (AI) to revolutionize the education landscape.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
@@ -68,7 +69,7 @@ export default function Example() {
               </div>
             </div>
             <img
-              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+              src="SImockup.png"
               alt="App screenshot"
               width={2432}
               height={1442}

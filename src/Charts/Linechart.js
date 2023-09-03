@@ -25,7 +25,7 @@ ChartJS.register(
 
 
 
-const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July','August', 'September', 'October','November','December'];
 
 export const options = {
   responsive: true,
@@ -39,6 +39,14 @@ export const options = {
           // You can apply any custom formatting here
           return `${value} %`; // Example: Prefixing the value with a dollar sign
         },
+      },
+      grid: {
+        color: 'rgba(255, 255, 255, 0.2)', // Change the color of the y-axis gridlines
+      },
+    },
+    x: {
+      grid: {
+        color: 'rgba(255, 255, 255, 0.2)', // Change the color of the x-axis gridlines
       },
     },
   },
@@ -59,19 +67,28 @@ export const data = {
         "April",
         "May",
         "June",
-        "July"
+        "July",
+        "September",
+        "October",
+        "November",
+        "December"
     ],
     "datasets": [
         {
-            "label": "Error rate",
+            "label": "Error Rate",
             "data": [
-                12,
-                94,
-                89,
-                50,
-                57,
+                9,
+                6,
+                5,
+                4,
+                3,
+                4,
+                3,
                 2,
-                28,
+                2,
+                1,
+                1,
+                1,
             ],
             "borderColor": "rgb(255, 99, 132)",
             "backgroundColor": "rgba(255, 99, 132, 0.5)"

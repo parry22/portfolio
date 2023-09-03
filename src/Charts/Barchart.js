@@ -33,6 +33,14 @@ export const options = {
           return `${value} %`; // Example: Prefixing the value with a dollar sign
         },
       },
+      grid: {
+        color: 'rgba(255, 255, 255, 0.2)', // Change the color of the y-axis gridlines
+      },
+    },
+    x: {
+      grid: {
+        color: 'rgba(255, 255, 255, 0.2)', // Change the color of the x-axis gridlines
+      },
     },
   },
   plugins: {
@@ -43,7 +51,7 @@ export const options = {
   },
 };
 
-const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+const labels = ['FQ 1', 'FQ 2', 'FQ 3', 'FQ 4'];
 
 export const data = {
   labels,
@@ -52,28 +60,22 @@ export const data = {
         {
             "label": "Conversion Rate",
             "data": [
-                95,
-                35,
-                18,
-                31,
-                5,
-                66,
-                39
+                10,
+                15,
+                12,
+                20
             ],
-            "backgroundColor": "rgba(255, 99, 132, 0.5)"
+            "backgroundColor": "rgba(255, 99, 132, 1)"
         },
         {
             "label": "Customer Acquisition",
             "data": [
-                87,
-                36,
-                49,
-                78,
-                96,
-                20,
-                20
+                8,
+                12,
+                10,
+                16
             ],
-            "backgroundColor": "rgba(53, 162, 235, 0.5)"
+            "backgroundColor": "rgba(53, 162, 235, 1)"
         }
     ],
   
